@@ -125,5 +125,52 @@
  dd.info{color:#888;font-size:12px;}
  dd.error{color:#c00;}
  aside a[href^="http"]:after,.doc a[href^="http"]:after{content:url(/assets/images/external.png);vertical-align:middle;margin-left:5px;}
- img.resize{width:44.8px;height74.18px;float:left;}
- 
+ img.resize{width:44.8px;height:74.18px;float:left;}
+ body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #335599;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    font-size: 3rem;
+  }
+  #submit{
+    float: right;
+    margin: 0 0.2rem 0 0;
+    color: #c850b0;
+    border-color: #c850b0;
+    background-color: plum;
+    border-radius: 100px;
+    border-width: 0.15rem;
+    padding: 2% 5%;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 250ms;
+    font-size: 1.5rem;
+    user-select: none;
+  }
+  input{
+    background: transparent;
+    border: none;
+    border-bottom: 0.2rem solid #c850b0;
+    /*padding: 0.5rem 2rem !important;*/
+    padding: 2% 5%;
+    font-size: 1.5rem;
+    color: plum;
+  }
+  label{
+    font-size: 2rem;
+    color: #c850b0;
+  }
+  
+  form{
+    position: absolute !important;
+    top: 45% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+  }
+
+  @media all and (min-width: 768px) {
+    form{
+      top: 50% !important;
+    }
+  }

@@ -1,0 +1,23 @@
+@()
+
+@main("Add Horse") {
+@defining(play.core.PlayVersion.current) { version =>
+
+<section id="create">
+ 
+  <form action="">
+    <label for="name">name *&nbsp;</label>
+    <input class="specialInput" type="text" id="name" name="name" value=""><br>
+    <label for="colour">colour *</label>
+    <input class="specialInput" type="text" name="colour" value=""><br>
+    <label for="speed">speed *&nbsp;</label>
+    <input class="specialInput" type="text" name="speed" value=""><br>
+    <label for="breed">breed *&nbsp;</label>
+    <input class="specialInput" type="text" name="breed" value=""><br>
+    <label for="image">image&nbsp;</label>
+    <input type="file" name="image" value=""><br><br>
+    <input id="submit" type="submit" value="add horse">
+  </form> 
+</section>
+}
+}

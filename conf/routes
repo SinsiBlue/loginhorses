@@ -9,6 +9,8 @@ GET     /explore                            controllers.HomeController.explore()
 GET     /tutorial                           controllers.HomeController.tutorial()
 
 GET     /home                               controllers.HomeController.home()
+GET     /login                              controllers.HomeController.login()
+GET     /create                             controllers.HomeController.create()
 
 
 # Map static resources from the /public folder to the /assets URL path

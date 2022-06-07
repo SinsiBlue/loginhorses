@@ -30,10 +30,14 @@ Seq[Any](format.raw/*1.4*/("""
 
 """),format.raw/*6.1*/("""<section id="home">
  
-  <button>login</button>
-  <button>register</button>
+  <button id="buttonLogin">
+    <a href=""""),_display_(/*9.15*/routes/*9.21*/.HomeController.login()),format.raw/*9.44*/("""">
+      login
+    </a>
+  </button>
+  <button id="buttonRegister">register</button>
 </section>
-""")))}),format.raw/*11.2*/("""
+""")))}),format.raw/*15.2*/("""
 """)))}))
       }
     }
@@ -51,9 +55,9 @@ Seq[Any](format.raw/*1.4*/("""
               /*
                   -- GENERATED --
                   SOURCE: app/views/home.scala.html
-                  HASH: 04c16caccfb4bbf64bcd25a73e51b73214d190f9
-                  MATRIX: 721->1|817->3|847->8|867->20|906->22|934->25|981->64|1031->77|1061->81|1183->173
-                  LINES: 21->1|26->1|28->3|28->3|28->3|29->4|29->4|29->4|31->6|36->11
+                  HASH: d6d1c2c573b6653083001f9a9cbfd1d0f0fafe2f
+                  MATRIX: 721->1|817->3|847->8|867->20|906->22|934->25|981->64|1031->77|1061->81|1154->148|1168->154|1211->177|1343->279
+                  LINES: 21->1|26->1|28->3|28->3|28->3|29->4|29->4|29->4|31->6|34->9|34->9|34->9|40->15
                   -- GENERATED --
               */
           

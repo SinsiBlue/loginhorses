@@ -83,3 +83,16 @@ AVERTISSEMENT: Unmatched cancel notification for request id 23
 2022.06.07 00:33:56 INFO  shutting down Metals
 2022.06.07 00:34:57 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\MediaMonster\Desktop\play-samples-play-scala-hello-world-tutorial\.metals\lsp.trace.json or C:\Users\MediaMonster\AppData\Local\scalameta\metals\cache\lsp.trace.json
 2022.06.07 00:35:01 INFO  logging to file C:\Users\MediaMonster\Desktop\play-samples-play-scala-hello-world-tutorial\.metals\metals.log
+2022.06.07 00:35:01 INFO  Started: Metals version 0.11.6 in workspace 'C:\Users\MediaMonster\Desktop\play-samples-play-scala-hello-world-tutorial' for client Visual Studio Code 1.67.2.
+2022.06.07 00:35:04 INFO  time: initialize in 3.25s
+2022.06.07 00:35:06 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.07 00:35:06 WARN  Build server is not auto-connectable.
+2022.06.07 00:35:07 INFO  skipping build import with status 'Requested'
+2022.06.07 09:21:49 INFO  shutting down Metals
+2022.06.07 09:42:00 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\MediaMonster\Desktop\play-samples-play-scala-hello-world-tutorial\.metals\lsp.trace.json or C:\Users\MediaMonster\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.06.07 09:42:04 INFO  logging to file C:\Users\MediaMonster\Desktop\play-samples-play-scala-hello-world-tutorial\.metals\metals.log
+2022.06.07 09:42:04 INFO  Started: Metals version 0.11.6 in workspace 'C:\Users\MediaMonster\Desktop\play-samples-play-scala-hello-world-tutorial' for client Visual Studio Code 1.67.2.
+2022.06.07 09:42:09 INFO  time: initialize in 4.9s
+2022.06.07 09:42:11 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.07 09:42:11 WARN  Build server is not auto-connectable.
+2022.06.07 09:42:12 INFO  skipping build import with status 'Requested'

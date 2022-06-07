@@ -16,10 +16,16 @@ package controllers {
     }
 
   
-    // @LINE:7
-    def index(): Call = {
+    // @LINE:9
+    def tutorial(): Call = {
       
-      Call("GET", _prefix)
+      Call("GET", _prefix + { _defaultPrefix } + "tutorial")
+    }
+  
+    // @LINE:13
+    def create(): Call = {
+      
+      Call("GET", _prefix + { _defaultPrefix } + "create")
     }
   
     // @LINE:8
@@ -28,28 +34,34 @@ package controllers {
       Call("GET", _prefix + { _defaultPrefix } + "explore")
     }
   
-    // @LINE:9
-    def tutorial(): Call = {
-      
-      Call("GET", _prefix + { _defaultPrefix } + "tutorial")
-    }
-  
     // @LINE:11
     def home(): Call = {
       
       Call("GET", _prefix + { _defaultPrefix } + "home")
     }
   
+    // @LINE:7
+    def index(): Call = {
+      
+      Call("GET", _prefix)
+    }
+  
+    // @LINE:12
+    def login(): Call = {
+      
+      Call("GET", _prefix + { _defaultPrefix } + "login")
+    }
+  
   }
 
-  // @LINE:15
+  // @LINE:17
   class ReverseAssets(_prefix: => String) {
     def _defaultPrefix: String = {
       if (_prefix.endsWith("/")) "" else "/"
     }
 
   
-    // @LINE:15
+    // @LINE:17
     def versioned(file:Asset): Call = {
       implicit lazy val _rrc = new play.core.routing.ReverseRouteContext(Map(("path", "/public"))); _rrc
       Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[play.api.mvc.PathBindable[Asset]].unbind("file", file))

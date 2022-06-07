@@ -38,10 +38,12 @@ Seq[Any](format.raw/*7.32*/("""
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" media="screen" href='"""),_display_(/*15.50*/routes/*15.56*/.Assets.versioned("stylesheets/main.css")),format.raw/*15.97*/("""'>
     <link rel="stylesheet" media="screen" href='"""),_display_(/*16.50*/routes/*16.56*/.Assets.versioned("stylesheets/home.css")),format.raw/*16.97*/("""'>
-    <link rel="stylesheet" media="screen" href='"""),_display_(/*17.50*/routes/*17.56*/.Assets.versioned("stylesheets/prism.css")),format.raw/*17.98*/("""'>
-    <link rel="shortcut icon" type="image/png" href='"""),_display_(/*18.55*/routes/*18.61*/.Assets.versioned("images/favicon.png")),format.raw/*18.100*/("""'>
-    <script src='"""),_display_(/*19.19*/routes/*19.25*/.Assets.versioned("javascripts/hello.js")),format.raw/*19.66*/("""' type="text/javascript"></script>
-    <script src='"""),_display_(/*20.19*/routes/*20.25*/.Assets.versioned("javascripts/prism.js")),format.raw/*20.66*/("""' type="text/javascript"></script>
+    <link rel="stylesheet" media="screen" href='"""),_display_(/*17.50*/routes/*17.56*/.Assets.versioned("stylesheets/login.css")),format.raw/*17.98*/("""'>
+    <link rel="stylesheet" media="screen" href='"""),_display_(/*18.50*/routes/*18.56*/.Assets.versioned("stylesheets/create.css")),format.raw/*18.99*/("""'>
+    <link rel="stylesheet" media="screen" href='"""),_display_(/*19.50*/routes/*19.56*/.Assets.versioned("stylesheets/prism.css")),format.raw/*19.98*/("""'>
+    <link rel="shortcut icon" type="image/png" href='"""),_display_(/*20.55*/routes/*20.61*/.Assets.versioned("images/favicon.png")),format.raw/*20.100*/("""'>
+    <script src='"""),_display_(/*21.19*/routes/*21.25*/.Assets.versioned("javascripts/hello.js")),format.raw/*21.66*/("""' type="text/javascript"></script>
+    <script src='"""),_display_(/*22.19*/routes/*22.25*/.Assets.versioned("javascripts/prism.js")),format.raw/*22.66*/("""' type="text/javascript"></script>
 </head>
 
 <body>
@@ -51,8 +53,8 @@ Seq[Any](format.raw/*7.32*/("""
             <h1>Play Hello World Web Tutorial</h1>
         </div>
     </section> -->
-    """),_display_(/*30.6*/content),format.raw/*30.13*/("""
-"""),format.raw/*31.1*/("""</body>
+    """),_display_(/*32.6*/content),format.raw/*32.13*/("""
+"""),format.raw/*33.1*/("""</body>
 
 </html>"""))
       }
@@ -71,9 +73,9 @@ Seq[Any](format.raw/*7.32*/("""
               /*
                   -- GENERATED --
                   SOURCE: app/views/main.scala.html
-                  HASH: fd0cee691f57613c51707e753918ee638bc15f3c
-                  MATRIX: 992->266|1117->296|1147->300|1231->357|1257->362|1419->497|1434->503|1496->544|1576->597|1591->603|1653->644|1733->697|1748->703|1811->745|1896->803|1911->809|1972->848|2021->870|2036->876|2098->917|2179->971|2194->977|2256->1018|2578->1314|2606->1321|2635->1323
-                  LINES: 26->7|31->7|33->9|37->13|37->13|39->15|39->15|39->15|40->16|40->16|40->16|41->17|41->17|41->17|42->18|42->18|42->18|43->19|43->19|43->19|44->20|44->20|44->20|54->30|54->30|55->31
+                  HASH: 90f800bb8035698168062467bb7aed3382f87bae
+                  MATRIX: 992->266|1117->296|1147->300|1231->357|1257->362|1419->497|1434->503|1496->544|1576->597|1591->603|1653->644|1733->697|1748->703|1811->745|1891->798|1906->804|1970->847|2050->900|2065->906|2128->948|2213->1006|2228->1012|2289->1051|2338->1073|2353->1079|2415->1120|2496->1174|2511->1180|2573->1221|2895->1517|2923->1524|2952->1526
+                  LINES: 26->7|31->7|33->9|37->13|37->13|39->15|39->15|39->15|40->16|40->16|40->16|41->17|41->17|41->17|42->18|42->18|42->18|43->19|43->19|43->19|44->20|44->20|44->20|45->21|45->21|45->21|46->22|46->22|46->22|56->32|56->32|57->33
                   -- GENERATED --
               */
           
